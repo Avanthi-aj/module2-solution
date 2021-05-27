@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css.css">
+    <title>Assignment1</title>
+    <style>
+        @media (min-width:992px){
+   
+   .box{
+       float: left;
+       width: 30%;
+       margin: 0.75rem;
+       padding: 5px;  
+       box-sizing: border-box; 
+   }}
+   @media (min-width:768px) and (max-width:991px){
+       .box{
+           float: left;
+       }
+       .chicken{
+           width: 48%;
+           margin: 00.25rem;
+           padding: 2px;
+           box-sizing: border-box;
+       }
+       .beef{
+           margin: 0.25rem;
+           padding: 2px;
+           width:48%
+       }
+       .sushi{
+           width: 97.5%;
+           padding: 2px;
+       }
+   }
+   @media (max-width:767px){
+       .box{
+           float: left;
+           width: 100%;
+           margin: 0.75rem;
+           padding: 3px;
+       }
+   }
+   
+   
+   .container{
+       margin: 20px;}
+   
+   
+   .box{
+       background-color:grey;
+       box-sizing: border-box;
+   }
+   h1{
+       text-align: center;
+   }
+   h3{ 
+       margin: 0;
+       float: right;
+       width: 80px;
+       text-align: center;
+       padding: 5px;
+       background-color:violet;
+       border:black 2px solid;
+       overflow: auto;
+   }
+   .col2{
+       background-color: red;
+   }
+   .col3{
+       background-color: greenyellow;
+   }
+    </style>
+</head>
+<body>
+    <h1>our menu</h1>
+    <div class="container">
+        <div class="box chicken">
+            <h3 class="col1">chicken</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, est quisquam assumenda ab, quasi porro fugiat temporibus voluptatum perspiciatis vero quibusdam, id consequuntur soluta dolore.</p>
+        </div>
+        <div class="box beef">
+            <h3 class="col2">Beef</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id veritatis labore reiciendis a ratione laboriosam natus illo, dicta magni nulla quas, corrupti, totam perspiciatis laborum! Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="box sushi">
+            <h3 class="col3">sushi</h3><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate ipsum, tenetur perspiciatis, facilis quod eos reprehenderit, sequi consectetur fugit veritatis unde deleniti quia. Ad, nulla!</p>
+        </div>
+    </div>
+</body>
+</html>
